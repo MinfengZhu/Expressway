@@ -1,5 +1,7 @@
 #map {
     z-index: 0;
     border-left:1px solid #5c88ef;
+    position: absolute;
+    top: 50px;
     width: 70%;
 }

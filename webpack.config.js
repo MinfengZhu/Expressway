@@ -49,7 +49,7 @@ module.exports = {
         loader: 'json-loader'
       }, 
       {
-        test: /\.(png|jpg|svg)$/,
+        test: /\.(png|jpg|woff2?|ttf|eot|svg)$/,
         loader: 'url-loader',
         options: {
           limit: 80000
@@ -90,6 +90,10 @@ module.exports = {
     }),
     new OpenBrowserPlugin({
       url: 'http://localhost:3000'
-    })
+    }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+  })
   ]
 };
