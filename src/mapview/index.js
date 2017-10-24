@@ -13,8 +13,8 @@ import 'mapbox.js/theme/style.css';
 export var map = L.map('map', {minZoom: 6, maxZoom: 18}).setView([27.957107298174993, 120.75759887695311], 13);
 
 // //	添加一个街道的图层
- L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
-// L.tileLayer('https://api.mapbox.com/styles/v1/hitonic/cj0kr08e600182rnthfip1fdb/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaGl0b25pYyIsImEiOiJjaW55aHhvcGgxODZndWttM2Vtcmt6dmJyIn0.eRFKQR3GxPYnigm-2sNzYg').addTo(map);
+//L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
+L.tileLayer('https://api.mapbox.com/styles/v1/hitonic/cj0kr08e600182rnthfip1fdb/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaGl0b25pYyIsImEiOiJjaW55aHhvcGgxODZndWttM2Vtcmt6dmJyIn0.eRFKQR3GxPYnigm-2sNzYg').addTo(map);
 
 // //remove leaflet information
 $(".leaflet-bottom.leaflet-right").remove()
