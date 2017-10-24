@@ -2,7 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "jquery": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -11,7 +12,13 @@ module.exports = {
         },
         "sourceType": "module"
     },
+    "globals": {
+        "L": false,
+        "__dirname": false,
+        "process": false
+    },
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
             4

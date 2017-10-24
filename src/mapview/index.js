@@ -1,6 +1,5 @@
 //Require
 import './style.css'
-import $ from 'jquery'
 import 'mapbox.js'
 import 'mapbox.js/theme/style.css'
 

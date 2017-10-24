@@ -1,6 +1,5 @@
-import './style.css';
-import * as d3 from 'd3';
-import $ from 'jquery';
+import './style.css'
+// import * as d3 from 'd3'
 
-$('#vehicle-info').html("vehicleInfo");
-console.log("...")
+$('#vehicle-info').html('vehicleInfo')
+console.log('...')

@@ -2,10 +2,30 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8">
-    <title>SmartHighwayVis</title>
+    <title>SmartExpresswayVis</title>
   </head>
   <body>
     <div class="root">
+        <nav class="navbar navbar-default" id="navbar" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a id="logo" class="navbar-brand" href="#">Expressway</a>
+                </div>
+                <div>
+                    <ul id="navul" class="nav navbar-nav">
+                        <li id="navli" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Load Data
+                                <b class="caret"></b>
+                            </a>
+                            <ul id="exul" class="dropdown-menu">
+                                <li id="loadMobileData"><a href="#">Mobile Trajectory</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
       <div id="map" class="one-level-view">
         <svg id="map-svg">
         </svg>
