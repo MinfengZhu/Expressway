@@ -1,3 +1,4 @@
+import * as leafletmap from "./mapview/map.js";
 
 // import all images
 const requireContext = require.context('./image', true, /^\.\/.*\.svg$/);
