@@ -1,6 +1,6 @@
 import './index.css';
-import * as leafletmap from "./mapview/index.js";
-import './vihicleview';
+import * as map from "./mapview/index.js";
+import './vehicleview';
 import './analysisview';
 import './controlpanel';
 
