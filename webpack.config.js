@@ -1,3 +1,4 @@
+process.noDeprecation = true;
 const webpack = require('webpack');
 const path = require('path');
 const SRC = path.join(__dirname, 'src');
@@ -49,14 +50,14 @@ module.exports = {
       }, 
       {
         test: /\.(png|jpg|svg)$/,
-        loader: 'url',
+        loader: 'url-loader',
         options: {
           limit: 80000
         }
       }
     ]
   },
-  devtool: 'eval-source-map',
+  devtool: 'inline-source-map',
   devServer: {
     contentBase: SRC,
     inline: true,

@@ -1,4 +1,8 @@
-import * as leafletmap from "./mapview/map.js";
+import './index.css';
+import * as leafletmap from "./mapview/index.js";
+import './vihicleview';
+import './analysisview';
+import './controlpanel';
 
 // import all images
 const requireContext = require.context('./image', true, /^\.\/.*\.svg$/);
